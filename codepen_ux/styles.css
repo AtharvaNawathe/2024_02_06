@@ -1,0 +1,261 @@
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  text-align: left;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+  width: 30px;
+  height: auto;
+}
+
+.company-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-name {
+  font-size: 19.5px;
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+    sans-serif;
+  margin-right: 920px;
+}
+
+.creator-name {
+  font-size: 13.5px;
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+    sans-serif;
+}
+
+header button {
+  background-color: #5a5f73;
+  color: white;
+  padding: 7px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  margin: 1px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-button {
+  position: relative;
+  background-color: #5a5f73;
+  height: 22px;
+  width: 58px, 62px, 69px, 82px;
+  color: white;
+  padding: 3px 7px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-left: 10px;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+}
+
+.bottom-right-buttons {
+  height: 22px;
+  width: 58px, 62px, 69px, 82px;
+  padding: 3px 7px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  margin: 0px;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+  color: white;
+  background-color: #5a5f73;
+  margin-right: 10px;
+}
+
+.follow-button {
+  background-color: rgb(105, 219, 105);
+  color: black;
+  height: 16px;
+  width: 55px;
+  padding: 3px 7px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  margin-right: 800px;
+  font-size: 12px;
+  text-align: center;
+}
+.box {
+  width: 370px;
+  height: 190px;
+  background-color: #1d1e22;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0px;
+  margin-left: 1150px;
+}
+
+.box1 {
+  width: 365px;
+  height: 20px;
+  padding: 10px;
+  margin: 0px;
+  margin-left: 1150px;
+  position: absolute;
+  color: white;
+  background: linear-gradient(to right, #1d1e22 23%, black 1%, black 100%);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.box2 {
+  width: 345x;
+  height: 20px;
+  background-color: red;
+  padding: 10px;
+  margin: 0px;
+  margin-left: 1150px;
+  position: absolute;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+ .modify2 {
+      justify-content: space-between;
+}
+.icon-box {
+  width: 20px;
+  height: 15px;
+  background-color: #f63b40;
+  display: flex;
+  border-radius: 2px;
+  align-items: center;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.slash-icon {
+  color: black;
+  font-size: 15px;
+}
+
+.icon-box1 {
+  width: 20px;
+  height: 15px;
+  background-color: #0ebeff;
+  display: flex;
+  border-radius: 2px;
+  align-items: center;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+
+.star-icon {
+  color: black;
+  font-size: 15px;
+}
+
+.icon-box2 {
+  width: 20px;
+  height: 19px;
+  background-color: #fcd000;
+  display: flex;
+  border-radius: 2px;
+  align-items: center;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+
+.js-icon {
+  color: black;
+  font-size: 15px;
+}
+
+.box-button {
+  height: 15px;
+  width: 30px;
+  color: #444657;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 44%;
+}
+
+.move {
+  position: absolute;
+  left: 90%;
+  height: 15px;
+  width: 25px;
+  bottom: 14px;
+  text-align: center;
+  background-color: #444657;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.move1 {
+  position: absolute;
+  left: 82%;
+  height: 15px;
+  width: 25px;
+  bottom: 14px;
+  text-align: center;
+  background-color: #444657;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.modify {
+  height: 39px;
+}
+
+@media (min-width: 768px) {
+}

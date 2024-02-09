@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-3</title>
+</head>
+<style>
+    body {
+     
+      justify-content: center;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    header {
+        background-color: rgb(84, 98, 250);
+        padding: 1px;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    }
+
+    footer {
+        background-color: rgb(1, 7, 71);
+        padding: 1px;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    }
+
+    main {
+      display: flex;
+      flex: 1;
+    }
+    
+
+    .left-section, .right-section {
+      flex: 0.25; 
+      background-color: #3155d7;
+      padding: 10px;
+      border: 2px solid #222;
+      text-align: center;
+    }
+
+    .middle-section {
+      flex: 0.5; 
+      background-color: #3e09ea;
+      padding: 20px;
+      border: 2px solid #222;
+      text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>HEADER</h1>
+    </header>
+    <main>
+        <div class="left-section">LEFT-SECTION</div>
+        <div class="middle-section">MIDDLE-SECTION</div>
+        <div class="right-section">RIGHT-SECTION</div>
+    </main>
+    
+    <footer>
+        <h1>FOOTER</h1>
+    </footer>
+</body>
+
+</html>
